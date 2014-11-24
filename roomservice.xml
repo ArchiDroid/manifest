@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Replaced projects -->
+		<remove-project name="CyanogenMod/android_bionic" />
+		<project name="ArchiDroid/android_bionic" path="bionic" remote="github" />
+
 		<remove-project name="CyanogenMod/android_hardware_libhardware" />
 		<project name="ArchiDroid/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
 
