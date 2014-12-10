@@ -4,26 +4,14 @@
 		<remove-project name="CyanogenMod/android_bionic" />
 		<project name="ArchiDroid/android_bionic" path="bionic" remote="github" />
 
-		<!-- <remove-project name="CyanogenMod/android_hardware_libhardware" />
-		<project name="ArchiDroid/android_hardware_libhardware" path="hardware/libhardware" remote="github" /> -->
-
-		<!-- <remove-project name="CyanogenMod/android_hardware_ril" />
-		<project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" /> -->
-
 		<remove-project name="CyanogenMod/android_frameworks_av" />
 		<project name="ArchiDroid/android_frameworks_av" path="frameworks/av" remote="github" />
 
 		<remove-project name="CyanogenMod/android_frameworks_base" />
 		<project name="ArchiDroid/android_frameworks_base" path="frameworks/base" remote="github" />
 
-		<remove-project name="CyanogenMod/android_frameworks_native" />
-		<project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
-
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
-
-		<!-- <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-		<project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" /> -->
 	<!-- /Replaced projects -->
 
 	<!-- Devices -->
@@ -46,9 +34,6 @@
 
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
 			<project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
-
-			<remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
 
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
 			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
