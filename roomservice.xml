@@ -10,8 +10,14 @@
 		<remove-project name="CyanogenMod/android_frameworks_base" />
 		<project name="ArchiDroid/android_frameworks_base" path="frameworks/base" remote="github" />
 
+		<remove-project name="CyanogenMod/android_frameworks_native" />
+		<project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
+
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
+
+		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+		<project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
 	<!-- /Replaced projects -->
 
 	<!-- Devices -->
@@ -21,7 +27,7 @@
 			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
 			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
 			<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-			<project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
+
 
 			<project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 
@@ -37,9 +43,6 @@
 
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
 			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
-
-			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
-			<project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
 		<!-- /i9300 -->
 	<!-- /Devices -->
 </manifest>
