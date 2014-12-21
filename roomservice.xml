@@ -13,6 +13,9 @@
 		<remove-project name="CyanogenMod/android_frameworks_native" />
 		<project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
 
+		<remove-project name="CyanogenMod/android_hardware_broadcom_wlan"/>
+		<project name="ArchiDroid/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" />
+
 	<!-- /Replaced projects -->
 
 	<!-- Devices -->
