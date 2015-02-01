@@ -4,6 +4,9 @@
 		<remove-project name="CyanogenMod/android_bionic" />
 		<project name="ArchiDroid/android_bionic" path="bionic" remote="github" />
 
+		<remove-project name="CyanogenMod/android_build" />
+		<project name="ArchiDroid/android_build" path="build" remote="github" />
+
 		<remove-project name="CyanogenMod/android_frameworks_av" />
 		<project name="ArchiDroid/android_frameworks_av" path="frameworks/av" remote="github" />
 
