@@ -16,6 +16,9 @@
 		<remove-project name="CyanogenMod/android_frameworks_native" />
 		<project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" />
 
+		<remove-project name="CyanogenMod/android_packages_services_Telephony" />
+		<project name="ArchiDroid/android_packages_services_Telephony" path="packages/services/Telephony" />
+
 	<!-- /Replaced projects -->
 
 	<!-- Devices -->
